@@ -1,0 +1,76 @@
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+body {
+    background-color: #FAFCFC;
+}
+.navvy {
+    background-color: #EDEDED;
+}
+color-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+}
+
+.singleCol {
+    max-width: 750px;
+}
+
+footer {
+    background-color: #003061;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #dfdfdf;
+}
+
+@media (max-width: 768px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #FAFCFC;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color:  #EDEDED;
+}
+.navbar-light, .navbar-toggle{
+    color: rgb(51, 0, 255);
+    border-color: rgb(51, 0, 255);
+}
+main {
+    flex: 1 0 auto;
+    background-color: #EDEDED;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.color-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+}
+
+.singleCol {
+    max-width: 750px;
+}
